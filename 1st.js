@@ -4,11 +4,13 @@
 
 
 function findsum() {
-  var total = 0;
-  for(var i = 0; i < 1000; i++) {
-    if(i % 3 == 0 || i % 5 == 0) {
-      total += i;
+    var total = 0;
+    for(var i = 0; i < 1000; i++) {
+        if(i % 3 == 0 || i % 5 == 0) {
+            total += i;
+        }
     }
-  }
-  print(total);
+    print(total);
+
 }
+
