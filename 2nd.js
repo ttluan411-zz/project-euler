@@ -10,7 +10,7 @@
 const maxInclusiveValue = 4000000
 
 const fib = index =>
-    index === 0 ? 1 :
+index === 0 ? 1 :
     index === 1 ? 1 :
         fib(index-1) + fib(index-2)
 
